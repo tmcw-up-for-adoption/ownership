@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var ownership = require('./'),
+    users = require('./example-users.json'),
+    packages = require('./example-packages.json');
+
+console.log('adding ' + users.length + ' owners to ' + packages.join(', '));
+
+ownership.addUsersToPackages(users, packages, function(err) {
+});

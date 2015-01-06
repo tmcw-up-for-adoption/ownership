@@ -1,0 +1,26 @@
+{
+  "name": "ownership",
+  "version": "1.0.0",
+  "description": "manage npm owner status in bulk",
+  "main": "index.js",
+  "bin": {
+    "ownership": "ownership",
+    "ownership-all": "ownership-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tmcw/ownership.git"
+  },
+  "keywords": [
+    "owner",
+    "npm",
+    "ownership",
+    "bulk"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmcw/ownership/issues"
+  },
+  "homepage": "https://github.com/tmcw/ownership"
+}
