@@ -3,7 +3,7 @@ var spawn = require('child_process').spawn;
 module.exports.addUsersToPackage = addUsersToPackage;
 module.exports.addUsersToPackages = addUsersToPackages;
 
-function addUsersToPackages(users, packages) {
+function addUsersToPackages(users, packages, callback) {
     addPackage();
     function addPackage() {
         var p = packages.pop();
