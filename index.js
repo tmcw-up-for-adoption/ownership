@@ -4,9 +4,11 @@ module.exports.addUsersToPackage = addUsersToPackage;
 module.exports.addUsersToPackages = addUsersToPackages;
 
 function addUsersToPackages(users, packages, callback) {
+    var i = -1;
     addPackage();
     function addPackage() {
-        var p = packages.pop();
+        var p = packages[++i];
+        console.log('Adding users to ', p);
         if (!p) { return callback(null); }
 
         addUsersToPackage(users, p, function(err) {
@@ -16,9 +18,10 @@ function addUsersToPackages(users, packages, callback) {
 }
 
 function addUsersToPackage(users, name, callback) {
+    var i = -1;
     addUser();
     function addUser() {
-        var user = users.pop();
+        var user = users[++i];
 
         if (!user) {
             process.stdout.write('\n');
