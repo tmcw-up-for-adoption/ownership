@@ -1,7 +1,7 @@
 # ownership
 
 This is a **module template**
-the [`npm owner`](https://docs.npmjs.com/cli/owner) command to
+for the [`npm owner`](https://docs.npmjs.com/cli/owner) command to
 make management of open source projects with many contributors easier,
 by keeping specific lists of **users with access** and optionally **packages
 they should have ownership of**.
