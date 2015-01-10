@@ -38,7 +38,7 @@ and adds all users to that package as owners. For instance:
     ownership express
 
 Would add all users in `example-users.json` as owners to the
-`express` packages.
+`express` package.
 
 ## ownership-all
 
