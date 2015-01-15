@@ -44,3 +44,14 @@ Would add all users in `example-users.json` as owners to the
 
 `ownership-all` doesn't take any arguments: it adds all users in
 `example-users.json` to all packages in `example-packages.json`.
+
+## ownership-rm
+
+`ownership-rm` takes one argument, the name of a user, and removes
+that user from all of the packages in `example-package.json`. For
+instance:
+
+    ownership-rm misspelled-name
+
+Would remove misspelled-name as owner from all the packages in 
+`example-package.json`.
