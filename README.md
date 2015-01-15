@@ -47,7 +47,7 @@ Would add all users in `example-users.json` as owners to the
 
 ## ownership-rm
 
-`ownership-rm` takes aone argument, the name of a user, and removes
+`ownership-rm` takes one argument, the name of a user, and removes
 that user from all of the packages in `example-package.json`. For
 instance:
 
