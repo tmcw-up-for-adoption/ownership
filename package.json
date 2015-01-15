@@ -5,7 +5,8 @@
   "main": "index.js",
   "bin": {
     "ownership": "ownership",
-    "ownership-all": "ownership-all"
+    "ownership-all": "ownership-all",
+    "ownership-rm": "ownership-rm"
   },
   "repository": {
     "type": "git",
