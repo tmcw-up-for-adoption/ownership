@@ -9,9 +9,9 @@ function addUsersToPackages(users, packages, callback) {
     addPackage();
     function addPackage() {
         var p = packages[++i];
-        console.log('Adding users to ', p);
         if (!p) { return callback(null); }
 
+        console.log('Adding users to:', p);
         addUsersToPackage(users, p, function(err) {
             if (!err) addPackage();
         });
