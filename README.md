@@ -1,5 +1,7 @@
 # ownership
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/ownership.svg)](https://greenkeeper.io/)
+
 This is a **module template**
 for the [`npm owner`](https://docs.npmjs.com/cli/owner) command to
 make management of open source projects with many contributors easier,
