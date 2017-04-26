@@ -1,5 +1,5 @@
 {
-  "name": "ownership",
+  "name": "mapzen-search-team-ownership",
   "version": "1.0.0",
   "description": "manage npm owner status in bulk",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:tmcw/ownership.git"
+    "url": "git@github.com:pelias/ownership.git"
   },
   "keywords": [
     "owner",

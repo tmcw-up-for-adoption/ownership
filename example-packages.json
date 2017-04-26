@@ -1,1 +1,11 @@
-["ownership"]
+[
+  "pelias-schema",
+  "pelias-config",
+  "pelias-model",
+  "pelias-esclient",
+  "pelias-dbclient",
+  "pelias-suggester-pipeline",
+  "pelias-hierarchy-lookup",
+  "pbf2json",
+  "geopipes-elasticsearch-backend"
+]
